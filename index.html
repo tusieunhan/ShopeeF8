@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset css normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!--  -->
+    <!-- Font link google roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="./css/Base.css">
+    <link rel="stylesheet" href="./css/Main.css">
+    <!-- font -->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!--  -->
+    <title>Shopee</title>
+</head>
+<body>  
+    <!-- Bock Element Modifier -->
+        <div class="Main">
+            <!-- Header begin -->
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--separete">
+                                Vào cửa hàng trên ứng dụng F8-Shop
+                        
+                                <!-- header qr code -->
+                                <div class="header__qr">
+                                    <img src="./img/QR.png" alt="" class="header__qr">
+                                    <div class="header__app">
+                                        <img src="./img/apstore.png" alt="" class="header__qr-dow">
+                                        <img src="./img/chplay.png" alt="" class="header__qr-dow">
+                                    </div>
+                                </div>
+                                <!-- end qr code -->
+                            </li>
+                            <li class="header__navbar-item">Kết nối
+                                <a href="https://www.facebook.com/vantusieunhan/" class="header__navbar-icon">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list" >
+                            <li class="header__navbar-item header__navbar-item-none">
+                                <a href="#" class="header__navbar-item-link">
+                                    <a href="" class="header__navbar-icon" ><i class="fas fa-bell"></i></a>
+                                    Thông báo
+                                </a>
+                                <div class="header__motify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify_list">
+                                        <li class="header__notify_item header__notify_item-viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./img/mypham.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỷ phẩm chính hãng</span>
+                                                    <span class="header__notify-des">Mô tả sản phẩm chính hãng ,Mua Bộ Chăm Sóc Da Mặt Chính Hãng 100% Tại SHOPT</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify_item header__notify_item-viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./img/mypham.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ phẩm làm đẹp Hàn Quốc chính hãng</span>
+                                                    <span class="header__notify-des">5000+ Sản phẩm Mỹ phẩm Hàn Quốc chính hãng khuyến mãi giá sốc. Bộ mỹ phẩm chăm sóc da</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify_item header__notify_item-viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./img/mypham.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ phẩm chính hãng nam nữ, mỹ phẩm cao cấp nhập khẩu</span>
+                                                    <span class="header__notify-des">Mỹ phẩm chính hãng hàng hiệu. CAM KẾT an toàn 100% lành tính, mỹ phẩm cao cấp dưỡng da, trang điểm, Son,…</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify_item header__notify_item-viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./img/mypham.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ Phẩm Chính Hãng Cao Cấp Giá Tốt Nhất </span>
+                                                    <span class="header__notify-des">Mỹ Phẩm Chính Hãng. Nhiều Nhãn Hiệu Nổi Tiếng Tại Orchard.vn-Since 2004.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__footer"><a class="header-btn" href="">
+                                        Xem tất cả
+                                    </a></footer>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">
+                                    <a href="" class="header__navbar-icon"><i class="fas fa-question-circle"></i></a>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separete">Đăng kí</li>
+                            <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- search  -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="./logo.png" alt="">
+                    </div>
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-item">
+                                    <a href="">Kem dưỡng da</a>
+                                </li>
+                                <li class="header__search-item">
+                                    <a href="">Quần nam đẹp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__search-sec">
+                            <span class="header__search-sec-label">Trong Shop &nbsp<i class="fas fa-chevron-down">&emsp;</i></span>
+                            <ul class="header__option">
+                                <li class="header__option-item">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="fas fa-search header__search-btn-icon"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-warp">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <!-- No cart :  no-cart -->
+                            
+                        <div class="cart__list no-cart">
+                            <img src="../img/no-cart.png" alt="" class="no-cart-img">
+                            <span class="no-cart-msg">
+                                Chưa có sản phẩm
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header end -->
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__row app__content">
+                        <div class="gird__column-2">
+                            <nav class="category">
+                                <h3 class="category__heading">
+                                    <i class="category__heading-icon fas fa-list-ul"></i>
+                                    Danh mục
+                                </h3>
+                                <ul class="category-list">
+                                    <li class="category-item category-item-active ">
+                                        <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Trang điểm môi</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="grid__column-10">
+                            <!-- home -->
+                            <div class="home-filter">
+                                <span class="home-filter__label"> Xắp xếp theo</span>
+                                <button class="home-filter__btn btn">Phổ biến</button>
+                                <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                                <button class="home-filter__btn btn">Bán chạy</button>
+
+                                <div class="input-sec-input">
+                                    <span class="input-sec-input__label">Giá</span>
+                                    <i class="fas fa-angle-down"></i>
+                                    <ul class="sec-input__list">
+                                        <li class="sec-input__list-item">
+                                            <a href="" class="sec-input-link">Giá : Thấp đến cao</a> 
+                                        </li>
+                                        <li class="sec-input__list-item">
+                                            <a href="" class="sec-input-link">Giá : Cao đến thấp</a> 
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="home-filter__page">
+                                    <span class="home-filter__page-num">
+                                        <span class="home-filter__page-current">1</span>/14
+                                    </span>
+                                    <div class="home-filter__page-control">
+                                        <a href="" class="home-filter__page-btn btn-btn">
+                                            <i class="fas fa-angle-left"></i>
+                                        </a>
+                                        <a href="" class="home-filter__page-btn">
+                                            <i class="fas fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="home-product " href="#">
+                                <div class="grid__row">
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="gird__column-2-4">
+                                        <div class="home-product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/42287ea214da8f4e2080201530c445dd);"> </div>
+                                            <h4 class="home-product-item__name">Chì kẻ mày 2 đầu Maxfine siêu mảnh gảy sợi nhiều màu tự nhiên MAXF01</h4>
+                                            <span class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1.200.000</span>
+                                                <span class="home-product-item__price-current">900.000đ</span>
+                                            </span>
+                                            <div class="home-product-item__action">
+                                                <!-- home-product-item__liked  -->
+                                                <span class="home-product-item__like home-product-item__liked ">
+                                                    <i class=" action-like-icon-empty far fa-heart "></i>
+                                                    <i class=" action-like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating ">
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class=" star-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="home-product-item__sold"> 88 đã bán</div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Who</span>
+                                                <span class="home-product-item__brand">Hàn quốc</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                Yêu thích
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">23%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                            </a>                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer  class="footer">
+           
+            </footer>
+        </div>
+        <!-- <div class="modal">
+            <div class="modal_overlay"></div>
+            <div class="modal__body">
+                    ---auther form--
+                <div class="auth-form">
+                    <div class="auth_form-container">
+                        <div class="header-form">
+                            <h3 class="auth_form-heading">Đăng ký</h3>
+                            <span class="auth_form__sw-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth_form-from">
+                            <div class="auth_form-group">
+                                <input type="text" class="auth_form-input" placeholder="Số Điện Thoại">
+                            </div>
+                            <div class="auth_form-group">
+                                <input type="text" class="auth_form-input" placeholder="Mật Khẩu">
+                            </div>
+                            <div class="auth_form-group">
+                                <input type="text" class="auth_form-input" placeholder="Nhập Lại Mật Khẩu">
+                            </div>
+                        </div>
+                        <div class="auth_form-text">
+                            <p class="auth_form_policy_text">Bằng việc đăng ký , bạn đã đồng ý với Shopee về
+                            <a href="" class="auth_form_text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth_form_text-link">Chính sách bảo mật</a>
+                        </p>
+                        </div>
+                        <div class="auth_form-controls">
+                            <button class="btn">TRỞ LẠI</button>
+                            <button class="btn btn--primary  ">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="auth_form-social">
+                        <a href="" class="btn btn--size-s btn--with-icon icon-facebook">
+                            <i class="fab fa-facebook"></i>
+                            Kết Nối Với Facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon btn--size-s  icon-google">
+                            <i class="fab fa-google"></i>
+                            Kết Nối Với Google
+                        </a>
+                    </div>
+            </div>
+        </div> -->
+</body>
+</html>
