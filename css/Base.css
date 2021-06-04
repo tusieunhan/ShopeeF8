@@ -490,3 +490,33 @@ html{
 .input-sec-input:hover .sec-input__list{
     display: block;
 }
+
+/* pag */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.home-product-pagination{
+    margin: 48px 0 32px 0;
+}
+.paination-item{
+    margin: 0 15px;
+}
+.paination-item--active .pagination__link {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.pagination__link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    font-weight: 400;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
